@@ -12,7 +12,11 @@ body{
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background: #1BB295;
+  background: rgb(228,175,205);
+background: -moz-radial-gradient(circle, rgba(228,175,205,1) 11%, rgba(174,209,214,1) 58%, rgba(148,187,233,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(228,175,205,1) 11%, rgba(174,209,214,1) 58%, rgba(148,187,233,1) 100%);
+background: radial-gradient(circle, rgba(228,175,205,1) 11%, rgba(174,209,214,1) 58%, rgba(148,187,233,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4afcd",endColorstr="#94bbe9",GradientType=1);
 }
 .wrapper{
   width: 430px;
@@ -40,7 +44,7 @@ body{
   margin: 4px;
   font-size: 24px;
   font-weight: 500;
-  color: #1ba98c;
+  color: #6acaeb;
   text-align: center;
   border-radius: 5px;
   background: none;
@@ -73,11 +77,11 @@ body{
   padding: 15px 0;
   font-size: 17px;
   border-radius: 5px;
-  background: #1BB295;
+  background: #6acaeb;
   transition: all 0.3s ease;
 }
 .content .reset-btn:hover{
-  background: #18a589;
+  background: #c48cd1;
 }
 
 @media screen and (max-width: 460px) {
