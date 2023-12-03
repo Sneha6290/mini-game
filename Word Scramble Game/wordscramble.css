@@ -12,19 +12,21 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #5372F0;
+  background: rgb(73,81,149);
+  background: linear-gradient(90deg, rgba(73,81,149,1) 0%, rgba(39,52,180,1) 95%);
 }
 .container{
   width: 440px;
   border-radius: 7px;
   background: #fff;
   box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  border: 2px solid #000000;
 }
 .container h2{
   font-size: 25px;
   font-weight: 500;
   padding: 16px 25px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #000000;
 }
 .container .content{
   margin: 25px 20px 35px;
@@ -41,6 +43,7 @@ body{
 }
 .content .details{
   margin: 25px 0 20px;
+
 }
 .details p{
   font-size: 18px;
@@ -56,7 +59,7 @@ body{
   padding: 0 16px;
   font-size: 18px;
   border-radius: 5px;
-  border: 1px solid #bfbfbf;
+  border: 1px solid #000000;
 }
 .content input:focus{
   box-shadow: 0px 2px 4px rgba(0,0,0,0.08);
