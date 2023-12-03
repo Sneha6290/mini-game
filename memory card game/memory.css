@@ -11,12 +11,14 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #6563FF;
+  background: rgb(73,81,149);
+  background: linear-gradient(90deg, rgba(73,81,149,1) 0%, rgba(39,52,180,1) 95%);
 }
 .wrapper{
   padding: 25px;
   border-radius: 10px;
-  background: #F8F8F8;
+  background: #6cf2ccd2;
+  border: 2px solid black;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 .cards, .card, .view{
@@ -66,6 +68,7 @@ body{
   position: absolute;
   border-radius: 7px;
   background: #fff;
+  border: 2px solid black;
   pointer-events: none;
   backface-visibility: hidden;
   box-shadow: 0 3px 10px rgba(0,0,0,0.1);

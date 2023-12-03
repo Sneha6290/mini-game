@@ -12,7 +12,8 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #17A2B8;
+  background: rgb(73,81,149);
+  background: linear-gradient(90deg, rgba(73,81,149,1) 0%, rgba(39,52,180,1) 95%);
 }
 ::selection{
   color: #fff;
@@ -52,16 +53,15 @@ body{
   position: relative;
 }
 .typing-text p span.correct{
-  color: #56964f;
+  color: #4dc440;
 }
 .typing-text p span.incorrect{
-  color: #cb3439;
+  color: #c7474b;
   outline: 1px solid #fff;
-  background: #ffc0cb;
   border-radius: 4px;
 }
 .typing-text p span.active{
-  color: #17A2B8;
+  color: rgb(73,81,149);
 }
 .typing-text p span.active::before{
   position: absolute;
@@ -72,7 +72,8 @@ body{
   left: 0;
   opacity: 0;
   border-radius: 5px;
-  background: #17A2B8;
+  background: rgb(73,81,149);
+  background: linear-gradient(90deg, rgba(73,81,149,1) 0%, rgba(39,52,180,1) 95%);
   animation: blink 1s ease-in-out infinite;
 }
 @keyframes blink{
@@ -98,7 +99,8 @@ body{
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
-  background: #17A2B8;
+  background: rgb(73,81,149);
+  background: linear-gradient(90deg, rgba(73,81,149,1) 0%, rgba(39,52,180,1) 95%);
   transition: transform 0.3s ease;
 }
 .content button:active{
